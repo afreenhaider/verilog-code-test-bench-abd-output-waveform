@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Mar 24 20:56:05 2019
+# Process ID: 4292
+# Current directory: E:/ANN NPTEL/fadder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2204 E:\ANN NPTEL\fadder\fadder.xpr
+# Log file: E:/ANN NPTEL/fadder/vivado.log
+# Journal file: E:/ANN NPTEL/fadder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/ANN NPTEL/fadder/fadder.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source rippleaddersimulation.tcl
