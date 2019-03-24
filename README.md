@@ -1,1 +1,1 @@
-# verilog-code-test-bench-abd-output-waveform
+# verilog-code-test-bench-and-output-waveform
